@@ -1,0 +1,23 @@
+body { padding: 0; margin: 0; background-color: #C4C4C4; }
+
+button { background-color: #E4244F; outline: none; border: 1px solid #E4244F; border-radius: 2px; padding: 5px; color: #fff; font-size: 15px; transition: 0.3s; }
+
+button:hover { background-color: #fff; color: #E4244F; border-color: #E4244F; }
+
+.board { background-color: #C4C4C4; text-align: center; width: 50%; margin: 0 auto; }
+
+.board h1 { color: #E4244F; }
+
+.board .column { margin: 20px 11px; float: left; width: 25%; background-color: #282923; border-radius: 2px; position: relative; padding: 10px; }
+
+.board .column .btn-delete { position: absolute; right: 0; top: 0; padding: 2px; }
+
+.board .column h2 { font-size: 18px; margin: 0 auto; width: 70%; color: #fff; margin-top: 0; padding-top: 0; }
+
+.board .column ul { list-style-type: none; padding: 0; }
+
+.board .column .card { background-color: #fff; position: relative; padding: 5px; margin: 5px; border-radius: 2px; transition: 0.3s; }
+
+.board .column .card:hover { transform: scale(1.2); }
+
+.board .column .card .btn-delete { position: absolute; right: 0; top: 0; padding: 1px; }
