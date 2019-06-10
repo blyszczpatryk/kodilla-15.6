@@ -17,7 +17,7 @@ function Column(name, id) {
 			data.append('name', cardName);
 			data.append('bootcamp_kanban_column_id', self.id);
 
-			fetch(baseUrl + '/card', {
+			fetch(prefixedUrl + '/card', {
 			    method: 'POST',
 			    headers: myHeaders,
 			    body: data,

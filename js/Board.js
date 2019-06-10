@@ -13,7 +13,7 @@ document.querySelector('#board .create-column').addEventListener('click', functi
 
     data.append('name', name);
 
-    fetch(baseUrl + '/column', {
+    fetch(prefixedUrl + '/column', {
         method: 'POST',
         headers: myHeaders,
         body: data,
