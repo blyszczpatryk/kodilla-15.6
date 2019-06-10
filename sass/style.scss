@@ -21,21 +21,28 @@ button {
 }
 
 .board {
-	background-color: #C4C4C4;
+	background-color: #282923;
 	text-align: center;
-	width: 50%;
 	margin: 0 auto;
+	padding: 10px;
 	h1 {
 		color: #E4244F;
+		margin: 0;
+		padding: 20px;
+	}
+	.column-container {
+		width: 50%;
+		margin: 0 auto;
 	}
 	.column {
-		margin: 20px 11px;
+		margin: 20px 5px 10px 0;
 		float: left;
-		width: 25%;
+		width: calc(33.33% - 5px);
 		background-color: #282923;
-		border-radius: 2px;
+		border-radius: 3px;
 		position: relative;
-		padding: 10px;
+		min-height: 150px;
+		padding: 10px 0;
 		.btn-delete {
 			position: absolute;
 			right: 0;
@@ -55,20 +62,27 @@ button {
 			padding: 0;
 		}
 		.card {
+			width: 70%;
+			margin: 7px auto;
 			background-color: #fff;
 			position: relative;
-			padding: 5px;
-			margin: 5px;
+			padding: 13px 5px;
 			border-radius: 2px;
 			transition: 0.3s;
 			&:hover {
-				transform: scale(1.2);
+				transform: scale(1.1);
+			}
+			p {
+				margin: 0;
 			}
 			.btn-delete {
 				position: absolute;
 				right: 0;
 				top: 0;
-				padding: 1px;
+				font-size: 10px;
+				height: 12px;
+				width: 11px;
+				padding: 0;
 			}
 		}
 	}
