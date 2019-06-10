@@ -8,7 +8,7 @@ function generateTemplate(name, data, basicElement) {
   	return element;
 }
 
-var prefix = "https://cors-anywhere.herokuapp.com/";
+var prefix = '*, https://chat.kodilla.com';
 var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
 var myHeaders = {
   	'X-Client-Id': '4053',
