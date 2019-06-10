@@ -12,18 +12,20 @@ button:hover { background-color: #fff; color: #E4244F; border-color: #E4244F; }
 
 .board .column-container { width: 50%; margin: 0 auto; }
 
-.board .column { margin: 20px 5px 10px 0; float: left; width: calc(33.33% - 5px); background-color: #282923; border-radius: 3px; position: relative; min-height: 150px; padding: 10px 0; }
+.board .column-container .column { margin: 20px 5px 10px 0; float: left; width: calc(33.33% - 5px); background-color: #282923; border-radius: 3px; position: relative; min-height: 150px; padding: 10px 0; }
 
-.board .column .btn-delete { position: absolute; right: 0; top: 0; padding: 2px; }
+.board .column-container .column .column-card-list { padding: 20px; }
 
-.board .column h2 { font-size: 18px; margin: 0 auto; width: 70%; color: #fff; margin-top: 0; padding-top: 0; }
+.board .column-container .column .btn-delete { position: absolute; right: 0; top: 0; padding: 2px; }
 
-.board .column ul { list-style-type: none; padding: 0; }
+.board .column-container .column h2 { font-size: 18px; margin: 0 auto; width: 70%; color: #fff; margin-top: 0; padding-top: 0; }
 
-.board .column .card { width: 70%; margin: 7px auto; background-color: #fff; position: relative; padding: 13px 5px; border-radius: 2px; transition: 0.3s; }
+.board .column-container .column ul { list-style-type: none; padding: 0; }
 
-.board .column .card:hover { transform: scale(1.1); }
+.board .column-container .column .card { width: 70%; margin: 7px auto; background-color: #fff; position: relative; padding: 13px 5px; border-radius: 2px; transition: 0.3s; }
 
-.board .column .card p { margin: 0; }
+.board .column-container .column .card:hover { transform: scale(1.1); }
 
-.board .column .card .btn-delete { position: absolute; right: 0; top: 0; font-size: 10px; height: 13px; width: auto; padding: 2px; }
+.board .column-container .column .card p { margin: 0; }
+
+.board .column-container .column .card .btn-delete { position: absolute; right: 0; top: 0; font-size: 10px; height: 13px; width: auto; padding: 2px; }
