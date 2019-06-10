@@ -11,8 +11,8 @@ function generateTemplate(name, data, basicElement) {
 var prefix = "https://cors-anywhere.herokuapp.com/";
 var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
 var myHeaders = {
-  	X-Client-Id: '4053',
-  	X-Auth-Token: '3d75e7f47f3120d75ed7cb37b71cc90d'
+  	'X-Client-Id': '4053',
+  	'X-Auth-Token': '3d75e7f47f3120d75ed7cb37b71cc90d'
 };
 
 fetch(prefix + baseUrl + '/board', { headers: myHeaders })
