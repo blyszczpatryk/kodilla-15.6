@@ -1,4 +1,4 @@
-function Column(name, id) {
+function Column(id, name) {
   	var self = this;
 
   	this.id = id;
